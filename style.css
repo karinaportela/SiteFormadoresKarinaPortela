@@ -1,4 +1,37 @@
-header{
+*{
+    margin:0px;
+    padding:0px;
+}
+.cabeçalho{
     background-color: #5B77E8;
     color: black;
+    display: flex;
+    font-size: 28px;
+    justify-content: space-around;
+}
+.imagemcabeçalho{
+    width: 20%;
+    height: 20%;
+}
+.imagemcódigos{
+    width: 40%;
+    height: 65%;
+}
+.texto{
+    background-color: #93BFCF;
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+}
+.lista{
+    list-style-type:none;
+}
+.parágrafo1{
+    font-size: 24px;
+}
+.parágrafo2{
+    font-size: 24px;
+}
+.títuloseção{
+    font-size: 30px;
 }
